@@ -1,3 +1,8 @@
+# School project using React-router and Redux
+
+This is the description of this school project and here is my solution. 
+
+
 ![AirBean](poster.png)
 
 # AirBean
