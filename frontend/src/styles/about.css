@@ -1,0 +1,27 @@
+.about-container {
+  padding-bottom: 8rem;
+}
+
+.about-container h1 {
+  text-align: left;
+}
+
+.about-container p {
+  line-height: 19.2px;
+}
+
+.bold-text {
+  line-height: 22.4px;
+  font-size: 14px;
+}
+
+.creator-info {
+  padding-top: 2rem;
+}
+
+.creator-info p,
+.creator-info h3 {
+  text-align: center;
+  margin: 0;
+  padding: 2px;
+}

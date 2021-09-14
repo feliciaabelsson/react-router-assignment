@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Work+Sans:wght@400;600&display=swap");
+
+:root {
+  /* Fonts */
+  --font-pt-serif: "PT Serif", serif;
+  --font-work-sans: "Work Sans", sans-serif;
+
+  /* Colors */
+  --brown: #2f2926;
+  --pink: "#F3E4E1";
+  --green: #0e927d;
+  --orange: "#E5674E";
+}
+
+h1 {
+  color: var(--brown);
+  font-family: var(--font-pt-serif);
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--font-pt-serif);
+  color: var(--brown);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+h3 {
+  font-family: var(--font-pt-serif);
+  color: var(--brown);
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.6px;
+  letter-spacing: 0em;
+}
+
+p {
+  font-family: var(--font-work-sans);
+  color: var(--brown);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15.6px;
+  text-align: left;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.button {
+  border-radius: 50px;
+  border-style: none;
+  font-size: 24px;
+  font-family: var(--font-pt-serif);
+  font-weight: 700;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}

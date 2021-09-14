@@ -1,0 +1,8 @@
+.landing-page-container {
+  min-height: 667px;
+
+  background: url(../assets/intro-graphic-left.svg) left no-repeat,
+    url(../assets/intro-graphic-right.svg) right no-repeat #38846d;
+  display: flex;
+  justify-content: center;
+}

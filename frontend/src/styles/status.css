@@ -1,0 +1,34 @@
+@import "main.css";
+
+.status-container {
+  background-color: #e5674e;
+  min-height: 667px;
+  padding: 0 2rem;
+}
+
+.status-container h1 {
+  color: white;
+  padding-top: 2rem;
+}
+
+.count-down {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+.order-number {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+
+.order-number-span {
+  text-transform: uppercase;
+}
+
+.button-status {
+  margin-top: 2rem;
+}

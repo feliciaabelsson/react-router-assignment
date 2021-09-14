@@ -1,0 +1,79 @@
+.menu-container,
+.about-container {
+  min-height: 839px;
+  background: url(../assets/graphics-header.svg) top no-repeat,
+    url(../assets/graphics-footer.svg) bottom no-repeat #f3e4e1;
+  z-index: 55;
+  padding: 0 2rem 0 2rem;
+  margin: 0;
+}
+
+.menu-container h1,
+.about-container h1 {
+  margin-top: 0;
+  padding-top: 8rem;
+}
+
+.menu-item-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0 1rem 0;
+}
+
+/* .add-coffe-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+} */
+
+.coffee-title-price h3,
+.coffee-title-price p {
+  margin: 5px 0 5px 0;
+}
+
+.coffee-desc p {
+  text-align: left;
+  margin: 0;
+}
+
+.add-sign {
+  width: 11px;
+  padding: 1rem;
+  color: white;
+  background: #2f2926;
+  border-radius: 50%;
+  border: none;
+  height: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.first {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.first:after {
+  content: "";
+  border-bottom: dotted 1px black;
+  flex: 1;
+}
+
+.coffee-title-price {
+  display: flex;
+  justify-content: space-between;
+  width: 16rem;
+}
+
+/* .price {
+  flex: 0 0 4em;
+} */
